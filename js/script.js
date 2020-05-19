@@ -91,7 +91,7 @@ function checkCells(x, y, cells) {
 
 function makeFood() {
     // attempts to add food, aborts if coord contain snake
-    if (food.length >= 3)
+    if (food.length >= 2)
         return;
     let x = getRandomNum(0, gridW - 1);
     let y = getRandomNum(0, gridH - 1);
@@ -148,7 +148,7 @@ function updateGame() {
         food.splice(ate, 1);
     if (ate === -1)
         snake.shift();
-    if (getRandomNum(0, 12) === 0)
+    if (getRandomNum(0, 6) === 0)
         makeFood();
 }
 
