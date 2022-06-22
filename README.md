@@ -5,7 +5,7 @@ This is an ongoing work-in-progress that I plan on turning into a roguelike vers
 
 ## Viewing
 
-Take a look at the most up-to-date version of [SnakeLike](https://amdorma.github.io/SnakeLike/)!
+Take a look at the most up-to-date version of [SnakeLike](https://elisemalin.github.io/SnakeLike/)!
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
